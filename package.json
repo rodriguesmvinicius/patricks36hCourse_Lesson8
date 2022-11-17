@@ -1,17 +1,8 @@
 {
-  "dependencies": {
-    "browserify": "^17.0.0",
-    "dot-env": "^0.0.1",
-    "ethers": "^5.7.2",
-    "watchify": "^4.0.0",
-    "web3": "^1.8.1"
-  },
+  "name": "html-fund-me-fcc",
+  "version": "1.0.0",
+  "description": "",
   "devDependencies": {
-    "babelify": "^10.0.0",
-    "http-server": "^14.1.1"
-  },
-  "scripts": {
-    "build": "browserify index.js --standalone bundle -o ./dist/bundle.js",
-    "watch": "watchify index.js --standalone bundle -o ./dist/bundle.js -v"
+    "http-server": "^14.1.0"
   }
 }
